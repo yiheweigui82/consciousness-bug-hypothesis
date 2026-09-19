@@ -5,6 +5,16 @@
 
 一个开放研究项目：把"意识"从一个神秘的高层功能，重新理解为**智能在无法顺利执行时被迫产生的副产品**。
 
+## 在线阅读（推荐）
+
+点链接直接打开，无需安装任何东西：
+
+- 🌐 **完整哲学（24节）**：https://yiheweigui82.github.io/consciousness-bug-hypothesis/theory/THEORY.md
+- 🌐 **学术论文**：https://yiheweigui82.github.io/consciousness-bug-hypothesis/paper/main.md
+- 🌐 **首页入口**：https://yiheweigui82.github.io/consciousness-bug-hypothesis/
+
+---
+
 ## 一句话核心
 
 **意识，也许不是一个生命系统"被设计出来的能力"，而是它"解决不了什么问题"之后，为了解释那些无法通过行动消除的误差，递归地创造出一个"我"之后涌现的现象。**
@@ -72,4 +82,5 @@ B2 self_coupled    10.330  0.242  0.222  0.246  0.256
 ## 许可
 
 本文档与代码采用 **CC BY 4.0**（可自由使用、修改、分发，需署名）。
+
 
