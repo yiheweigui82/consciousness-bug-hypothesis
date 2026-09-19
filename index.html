@@ -1,0 +1,55 @@
+﻿<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>意识的 Bug 假说 · The Consciousness Bug Hypothesis</title>
+<meta name="theme-color" content="#0A0A0A">
+<style>
+  :root { --bg:#0A0A0A; --fg:#F5C518; --text:#E8E6E1; --dim:#8A887F; }
+  * { margin:0; padding:0; box-sizing:border-box; }
+  body { background:var(--bg); color:var(--text); font-family:"PingFang SC","Microsoft YaHei",sans-serif; line-height:1.8; min-height:100vh; display:flex; flex-direction:column; align-items:center; justify-content:center; padding:40px 24px; }
+  .wrap { max-width:760px; width:100%; }
+  .tag { color:var(--fg); letter-spacing:.3em; font-size:14px; margin-bottom:24px; text-transform:uppercase; }
+  h1 { font-size:clamp(28px,6vw,44px); font-weight:800; line-height:1.3; color:#fff; margin-bottom:16px; }
+  .sub { color:var(--dim); font-size:16px; margin-bottom:40px; }
+  .chain { color:var(--fg); font-size:clamp(16px,3vw,22px); font-weight:700; margin-bottom:48px; letter-spacing:.05em; }
+  .quote { border-left:3px solid var(--fg); padding:8px 20px; color:var(--text); font-size:17px; margin-bottom:40px; font-style:italic; }
+  .cards { display:grid; grid-template-columns:1fr 1fr; gap:16px; margin-bottom:48px; }
+  .card { background:#16161a; border:1px solid #2a2a30; border-radius:12px; padding:24px; text-decoration:none; color:var(--text); transition:border-color .2s,transform .2s; }
+  .card:hover { border-color:var(--fg); transform:translateY(-2px); }
+  .card h2 { color:var(--fg); font-size:18px; margin-bottom:8px; }
+  .card p { color:var(--dim); font-size:14px; }
+  .footer { color:var(--dim); font-size:13px; text-align:center; }
+  @media(max-width:600px){ .cards{grid-template-columns:1fr;} }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <div class="tag">Evolve Yourself · Open Research</div>
+  <h1>意识的 Bug 假说</h1>
+  <div class="sub">The Consciousness Bug Hypothesis — 意识不是智能赢来的能力，而是智能输给现实后欠下的债。</div>
+  <div class="chain">Bug → 解释 Bug → 创造"我" → 意识</div>
+  <div class="quote">一个有限的"我"，开始思考无限的"道"。也许这并不是"我"在寻找道，而是道的一部分，正在通过"我"，寻找自己。</div>
+  <div class="cards">
+    <a class="card" href="theory/THEORY.md">
+      <h2>完整哲学 · 24节</h2>
+      <p>从预测误差到"道通过我寻找自己"的完整世界观</p>
+    </a>
+    <a class="card" href="paper/main.md">
+      <h2>学术论文</h2>
+      <p>可证伪的假说 + 最小数学形式化 + 三组实验</p>
+    </a>
+    <a class="card" href="experiments/PROTOCOL.md">
+      <h2>实验协议</h2>
+      <p>三个可复现实验的完整设计（A/B/C）</p>
+    </a>
+    <a class="card" href="https://github.com/yiheweigui82/consciousness-bug-hypothesis">
+      <h2>GitHub 仓库</h2>
+      <p>源码、模拟、讨论、参与反例与实验</p>
+    </a>
+  </div>
+  <div class="footer">The goal is not to prove the idea. The goal is to find out whether it survives attempts to break it.</div>
+</div>
+</body>
+</html>
